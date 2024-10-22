@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 17.0.7 (Oracle Corporation)
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1729592475832
+Export-Package: org.apache.struts.dispatcher;version="1.4.0.SNAPSHOT",or
+ g.apache.struts.action;version="1.4.0.SNAPSHOT",org.apache.struts.confi
+ g.impl;version="1.4.0.SNAPSHOT",org.apache.struts.upload;version="1.4.0
+ .SNAPSHOT",org.apache.struts.chain;version="1.4.0.SNAPSHOT",org.apache.
+ struts.dispatcher.servlet;version="1.4.0.SNAPSHOT",org.apache.struts.re
+ sources;version="1.4.0.SNAPSHOT",org.apache.struts.mock;version="1.4.0.
+ SNAPSHOT",org.apache.struts.chain.commands;version="1.4.0.SNAPSHOT",org
+ .apache.struts.config;version="1.4.0.SNAPSHOT",org.apache.struts.valida
+ tor.validwhen;version="1.4.0.SNAPSHOT",org.apache.struts.util;version="
+ 1.4.0.SNAPSHOT",org.apache.struts.chain.commands.servlet;version="1.4.0
+ .SNAPSHOT",org.apache.struts.chain.commands.generic;version="1.4.0.SNAP
+ SHOT",org.apache.struts.chain.contexts;version="1.4.0.SNAPSHOT",org.apa
+ che.struts.validator;version="1.4.0.SNAPSHOT",org.apache.struts;version
+ ="1.4.0.SNAPSHOT",org.apache.struts.chain.commands.util;version="1.4.0.
+ SNAPSHOT"
+Import-Package: antlr,antlr.collections.impl,javax.servlet,javax.servlet
+ .http,javax.servlet.jsp,javax.servlet.jsp.tagext,junit.awtui,junit.fram
+ ework,org.apache.commons.beanutils,org.apache.commons.beanutils.convert
+ ers,org.apache.commons.chain,org.apache.commons.chain.config,org.apache
+ .commons.chain.impl,org.apache.commons.chain.web,org.apache.commons.cha
+ in.web.servlet,org.apache.commons.digester,org.apache.commons.fileuploa
+ d,org.apache.commons.fileupload.disk,org.apache.commons.logging,org.apa
+ che.commons.validator,org.apache.commons.validator.util,org.apache.stru
+ ts;version="1.4.0.SNAPSHOT",org.apache.struts.action;version="1.4.0.SNA
+ PSHOT",org.apache.struts.chain;version="1.4.0.SNAPSHOT",org.apache.stru
+ ts.chain.commands;version="1.4.0.SNAPSHOT",org.apache.struts.chain.comm
+ ands.generic;version="1.4.0.SNAPSHOT",org.apache.struts.chain.commands.
+ servlet;version="1.4.0.SNAPSHOT",org.apache.struts.chain.commands.util;
+ version="1.4.0.SNAPSHOT",org.apache.struts.chain.contexts;version="1.4.
+ 0.SNAPSHOT",org.apache.struts.config;version="1.4.0.SNAPSHOT",org.apach
+ e.struts.config.impl;version="1.4.0.SNAPSHOT",org.apache.struts.dispatc
+ her;version="1.4.0.SNAPSHOT",org.apache.struts.dispatcher.servlet;versi
+ on="1.4.0.SNAPSHOT",org.apache.struts.mock;version="1.4.0.SNAPSHOT",org
+ .apache.struts.resources;version="1.4.0.SNAPSHOT",org.apache.struts.upl
+ oad;version="1.4.0.SNAPSHOT",org.apache.struts.util;version="1.4.0.SNAP
+ SHOT",org.apache.struts.validator;version="1.4.0.SNAPSHOT",org.apache.s
+ truts.validator.validwhen;version="1.4.0.SNAPSHOT",org.xml.sax
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-SymbolicName: org.apache.struts.core
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://struts.apache.org
+Bundle-Description: Apache Struts
+Bundle-Vendor: Apache Software Foundation
+Bundle-Name: Struts Core
+

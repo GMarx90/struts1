@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 17.0.7 (Oracle Corporation)
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1729592483334
+Export-Package: org.apache.struts.taglib;version="1.4.0.SNAPSHOT",org.ap
+ ache.struts.taglib.bean;version="1.4.0.SNAPSHOT",org.apache.struts.tagl
+ ib.nested.logic;version="1.4.0.SNAPSHOT",org.apache.struts.taglib.html;
+ version="1.4.0.SNAPSHOT",org.apache.struts.taglib.nested;version="1.4.0
+ .SNAPSHOT",org.apache.struts.taglib.nested.bean;version="1.4.0.SNAPSHOT
+ ",org.apache.struts.taglib.nested.html;version="1.4.0.SNAPSHOT",org.apa
+ che.struts.taglib.logic;version="1.4.0.SNAPSHOT"
+Import-Package: javax.servlet,javax.servlet.http,javax.servlet.jsp,javax
+ .servlet.jsp.tagext,org.apache.commons.beanutils,org.apache.commons.log
+ ging,org.apache.commons.validator,org.apache.struts,org.apache.struts.a
+ ction,org.apache.struts.config,org.apache.struts.taglib;version="1.4.0.
+ SNAPSHOT",org.apache.struts.taglib.bean;version="1.4.0.SNAPSHOT",org.ap
+ ache.struts.taglib.html;version="1.4.0.SNAPSHOT",org.apache.struts.tagl
+ ib.logic;version="1.4.0.SNAPSHOT",org.apache.struts.taglib.nested;versi
+ on="1.4.0.SNAPSHOT",org.apache.struts.taglib.nested.bean;version="1.4.0
+ .SNAPSHOT",org.apache.struts.taglib.nested.html;version="1.4.0.SNAPSHOT
+ ",org.apache.struts.taglib.nested.logic;version="1.4.0.SNAPSHOT",org.ap
+ ache.struts.util,org.apache.struts.validator
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-SymbolicName: org.apache.struts.taglib
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://struts.apache.org
+Bundle-Description: Apache Struts
+Bundle-Vendor: Apache Software Foundation
+Bundle-Name: Struts Taglib
+

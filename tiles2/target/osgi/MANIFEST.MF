@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 17.0.7 (Oracle Corporation)
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1729592486815
+Export-Package: org.apache.struts.tiles2.preparer;version="1.4.0.SNAPSHO
+ T",org.apache.struts.tiles2;version="1.4.0.SNAPSHOT",org.apache.struts.
+ tiles2.commands;version="1.4.0.SNAPSHOT",org.apache.struts.tiles2.actio
+ ns;version="1.4.0.SNAPSHOT",org.apache.struts.tiles2.util;version="1.4.
+ 0.SNAPSHOT"
+Import-Package: javax.servlet,javax.servlet.http,org.apache.commons.chai
+ n,org.apache.commons.collections,org.apache.commons.collections.iterato
+ rs,org.apache.commons.logging,org.apache.struts,org.apache.struts.actio
+ n,org.apache.struts.chain,org.apache.struts.chain.contexts,org.apache.s
+ truts.config,org.apache.struts.tiles2;version="1.4.0.SNAPSHOT",org.apac
+ he.struts.tiles2.actions;version="1.4.0.SNAPSHOT",org.apache.struts.til
+ es2.commands;version="1.4.0.SNAPSHOT",org.apache.struts.tiles2.preparer
+ ;version="1.4.0.SNAPSHOT",org.apache.struts.tiles2.util;version="1.4.0.
+ SNAPSHOT",org.apache.struts.util,org.apache.tiles,org.apache.tiles.acce
+ ss,org.apache.tiles.context,org.apache.tiles.definition,org.apache.tile
+ s.definition.util,org.apache.tiles.factory,org.apache.tiles.impl,org.ap
+ ache.tiles.preparer,org.apache.tiles.servlet.context,org.apache.tiles.u
+ til
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-SymbolicName: org.apache.struts.tiles2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://struts.apache.org
+Bundle-Description: Apache Struts
+Bundle-Vendor: Apache Software Foundation
+Bundle-Name: Struts - Tiles 2 integration
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" name="org.apache.struts.action.TestDynaActionFormClass" time="0.033" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Projects\jbf-training\workspaces\main\struts1\core"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="basedir" value="C:\Projects\jbf-training\workspaces\main\struts1\core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\grmarx\AppData\Local\Temp\surefirebooter6968846154876669422.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\grmarx\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Maven\apache-maven-3.9.7\bin;C:\Program Files\Git\cmd;C:\Users\grmarx\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\grmarx\AppData\Local\Programs\Python\Python311\;C:\Users\grmarx\AppData\Local\Programs\Python\Launcher\;C:\Users\grmarx\scripts;C:\Users\grmarx\Desktop\moje\studia\MOngo\mongosh-1.6.0-win32-x64\bin;C:\Users\grmarx\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mosquitto;C:\Users\grmarx\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\grmarx\.dotnet\tools;C:\Program Files\dotnet;C:\Users\grmarx\AppData\Roaming\npm;C:\Users\grmarx\AppData\Local\Programs\Git\cmd;C:\Program Files\JetBrains\PyCharm 2023.2\bin;;C:\Users\grmarx\Maven\apache-maven-3.9.7\bin;C:\Program Files\GnuWin32\bin\wget-1.5.3;;C:\Users\grmarx\AppData\Local\Programs\Ollama;."/>
+    <property name="surefire.test.class.path" value="C:\Projects\jbf-training\workspaces\main\struts1\core\target\test-classes;C:\Projects\jbf-training\workspaces\main\struts1\core\target\classes;C:\Users\grmarx\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\grmarx\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\grmarx\.m2\repository\commons-chain\commons-chain\1.2\commons-chain-1.2.jar;C:\Users\grmarx\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\grmarx\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar;C:\Users\grmarx\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\grmarx\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\grmarx\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\grmarx\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\grmarx\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\grmarx"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="grmarx"/>
+    <property name="java.class.path" value="C:\Projects\jbf-training\workspaces\main\struts1\core\target\test-classes;C:\Projects\jbf-training\workspaces\main\struts1\core\target\classes;C:\Users\grmarx\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\grmarx\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\grmarx\.m2\repository\commons-chain\commons-chain\1.2\commons-chain-1.2.jar;C:\Users\grmarx\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\grmarx\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar;C:\Users\grmarx\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\grmarx\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\grmarx\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\grmarx\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\grmarx\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="C:\Users\grmarx\AppData\Local\Temp\surefirebooter6968846154876669422.jar C:\Users\grmarx\AppData\Local\Temp\surefire4234028388103124939tmp C:\Users\grmarx\AppData\Local\Temp\surefire18262475299599739955tmp"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="pl"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\grmarx\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.apache.struts.action.TestDynaActionFormClass" name="testConfigProperties" time="0.005"/>
+  <testcase classname="org.apache.struts.action.TestDynaActionFormClass" name="testConfigInitialValues" time="0.026"/>
+  <testcase classname="org.apache.struts.action.TestDynaActionFormClass" name="testConfigDuplicate" time="0"/>
+  <testcase classname="org.apache.struts.action.TestDynaActionFormClass" name="testConfigAdd" time="0"/>
+  <testcase classname="org.apache.struts.action.TestDynaActionFormClass" name="testConfigCreate" time="0"/>
+  <testcase classname="org.apache.struts.action.TestDynaActionFormClass" name="testConfigRemove" time="0"/>
+  <testcase classname="org.apache.struts.action.TestDynaActionFormClass" name="testClassCreate" time="0"/>
+</testsuite>

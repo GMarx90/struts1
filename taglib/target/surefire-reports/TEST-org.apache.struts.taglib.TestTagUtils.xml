@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="103" failures="0" name="org.apache.struts.taglib.TestTagUtils" time="0.163" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Projects\jbf-training\workspaces\main\struts1\taglib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="basedir" value="C:\Projects\jbf-training\workspaces\main\struts1\taglib"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\grmarx\AppData\Local\Temp\surefirebooter3475959291506214558.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\grmarx\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Maven\apache-maven-3.9.7\bin;C:\Program Files\Git\cmd;C:\Users\grmarx\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\grmarx\AppData\Local\Programs\Python\Python311\;C:\Users\grmarx\AppData\Local\Programs\Python\Launcher\;C:\Users\grmarx\scripts;C:\Users\grmarx\Desktop\moje\studia\MOngo\mongosh-1.6.0-win32-x64\bin;C:\Users\grmarx\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mosquitto;C:\Users\grmarx\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\grmarx\.dotnet\tools;C:\Program Files\dotnet;C:\Users\grmarx\AppData\Roaming\npm;C:\Users\grmarx\AppData\Local\Programs\Git\cmd;C:\Program Files\JetBrains\PyCharm 2023.2\bin;;C:\Users\grmarx\Maven\apache-maven-3.9.7\bin;C:\Program Files\GnuWin32\bin\wget-1.5.3;;C:\Users\grmarx\AppData\Local\Programs\Ollama;."/>
+    <property name="surefire.test.class.path" value="C:\Projects\jbf-training\workspaces\main\struts1\taglib\target\test-classes;C:\Projects\jbf-training\workspaces\main\struts1\taglib\target\classes;C:\Projects\jbf-training\workspaces\main\struts1\core\target\struts-core-1.4.0-SNAPSHOT.jar;C:\Users\grmarx\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\grmarx\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\grmarx\.m2\repository\commons-chain\commons-chain\1.2\commons-chain-1.2.jar;C:\Users\grmarx\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\grmarx\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar;C:\Users\grmarx\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\grmarx\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\grmarx\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\grmarx\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\grmarx\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\grmarx"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="grmarx"/>
+    <property name="java.class.path" value="C:\Projects\jbf-training\workspaces\main\struts1\taglib\target\test-classes;C:\Projects\jbf-training\workspaces\main\struts1\taglib\target\classes;C:\Projects\jbf-training\workspaces\main\struts1\core\target\struts-core-1.4.0-SNAPSHOT.jar;C:\Users\grmarx\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\grmarx\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\grmarx\.m2\repository\commons-chain\commons-chain\1.2\commons-chain-1.2.jar;C:\Users\grmarx\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\grmarx\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar;C:\Users\grmarx\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\grmarx\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\grmarx\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\grmarx\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\grmarx\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="C:\Users\grmarx\AppData\Local\Temp\surefirebooter3475959291506214558.jar C:\Users\grmarx\AppData\Local\Temp\surefire14486536001519574848tmp C:\Users\grmarx\AppData\Local\Temp\surefire10033937859657548309tmp"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="pl"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\grmarx\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageApplicationGoodKeyWithNullParams" time="0.01"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="test_Object_lookup_PageContext_String__String3" time="0.028"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testString_getActionMappingURL_String_PageContext" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="test_Object_lookup_PageContext_String__String1" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParametersPropertyThrowsException" time="0.041"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageRequestGoodKeyWithNullParams" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParametersParamValueToString" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageApplicationGoodKeyWithParams" time="0.003"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURLCharacterEncodingAction" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testLocale_getUserLocale_PageContext_String" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="test_Object_lookup_PageContext_String__String2" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageRequestGoodKeyWithParams" time="0.002"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testModuleConfig_getModuleConfig_PageContext" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURLCharacterEncodingMultipleSpecifier" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters0a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters0b" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParametersInvalidScope" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParametersBeanNotFound" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters1a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters1b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testGetActionErrors1e" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testGetActionErrors1a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageSessionBadKey" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters2b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testGetActionErrors1b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testGetActionErrors1d" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters1c" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageRequestBadKey" time="0.002"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters2a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters3aa" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageApplicationBadKey" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testOverrideInstance" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageBadParams" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testGetActionMappingName1" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageRequestGoodKey" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="test_boolean_isXhtml_PageContext" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters3a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testWriteThrowException" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters3b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters2c" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testMessageApplicationGoodKey" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testWritePreviousThrowException" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParameters2d" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testWriteNullParams" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testGetActionErrors1c" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testWritePreviousBody" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURLCharacterEncoding" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1a" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testFilter" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2c" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3m" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1h" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3i" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3l" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testPageURL1" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2d" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1f" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2g" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2e" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2f" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3e" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1c" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3g" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2h" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3f" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1g" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3h" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3k" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL2a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3c" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1d" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1e" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3d" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL3j" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeURL1b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testPageURL3a" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testPageURL3b" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testencodeURL1" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testPageURL2" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testPresentGoodKey" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testWrite" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testPresentBadKey" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testPresentNulls" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testWritePrevious" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="test_Object_lookup_PageContext_String_String_String1" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testString_getActionMappingURL_String_String_PageContext_boolean4" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testString_getActionMappingURL_String_String_PageContext_boolean2" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testString_getActionMappingURL_String_String_PageContext_boolean1" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testString_getActionMappingURL_String_String_PageContext_boolean6" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testActionMessages_getActionMessages_PageContext_String6" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testActionMessages_getActionMessages_PageContext_String3" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testActionMessages_getActionMessages_PageContext_String5" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testActionMessages_getActionMessages_PageContext_String2" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testActionMessages_getActionMessages_PageContext_String1" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testActionMessages_getActionMessages_PageContext_String4" time="0.001"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="test_Object_lookup_PageContext_String_String_String2" time="0.002"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testString_getActionMappingURL_String_String_PageContext_boolean3" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="test_Object_lookup_PageContext_String_String_String3" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testComputeParametersParamIdParamPropThrowException" time="0"/>
+  <testcase classname="org.apache.struts.taglib.TestTagUtils" name="testString_getActionMappingURL_String_String_PageContext_boolean5" time="0"/>
+</testsuite>

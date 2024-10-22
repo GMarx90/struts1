@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 17.0.7 (Oracle Corporation)
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1729592479996
+Export-Package: org.apache.struts.plugins;version="1.4.0.SNAPSHOT",org.a
+ pache.struts.validator;version="1.4.0.SNAPSHOT",org.apache.struts.actio
+ ns;version="1.4.0.SNAPSHOT"
+Import-Package: javax.servlet,javax.servlet.http,org.apache.commons.bean
+ utils,org.apache.commons.digester,org.apache.commons.digester.xmlrules,
+ org.apache.commons.logging,org.apache.struts,org.apache.struts.action,o
+ rg.apache.struts.actions;version="1.4.0.SNAPSHOT",org.apache.struts.cha
+ in.contexts,org.apache.struts.config,org.apache.struts.dispatcher,org.a
+ pache.struts.plugins;version="1.4.0.SNAPSHOT",org.apache.struts.util,or
+ g.apache.struts.validator;version="1.4.0.SNAPSHOT",org.xml.sax
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-SymbolicName: org.apache.struts.extras
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://struts.apache.org
+Bundle-Description: Apache Struts
+Bundle-Vendor: Apache Software Foundation
+Bundle-Name: Struts Extras
+

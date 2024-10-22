@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 17.0.7 (Oracle Corporation)
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1729592480297
+Export-Package: org.apache.struts.apps.mailreader.dao.impl.memory;versio
+ n="1.4.0.SNAPSHOT",org.apache.struts.apps.mailreader.dao.impl;version="
+ 1.4.0.SNAPSHOT",org.apache.struts.apps.mailreader.dao;version="1.4.0.SN
+ APSHOT"
+Import-Package: org.apache.commons.digester,org.apache.commons.logging,o
+ rg.apache.struts.apps.mailreader.dao;version="1.4.0.SNAPSHOT",org.apach
+ e.struts.apps.mailreader.dao.impl;version="1.4.0.SNAPSHOT",org.apache.s
+ truts.apps.mailreader.dao.impl.memory;version="1.4.0.SNAPSHOT",org.xml.
+ sax
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-SymbolicName: org.apache.struts.apps.mailreader.dao
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://struts.apache.org
+Bundle-Description: Apache Struts
+Bundle-Vendor: Apache Software Foundation
+Bundle-Name: Struts Mailreader DAO
+

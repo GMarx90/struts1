@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 17.0.7 (Oracle Corporation)
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1729592485257
+Export-Package: org.apache.struts.tiles.beans;version="1.4.0.SNAPSHOT",o
+ rg.apache.struts.tiles.definition;version="1.4.0.SNAPSHOT",org.apache.s
+ truts.tiles.commands;version="1.4.0.SNAPSHOT",org.apache.struts.tiles;v
+ ersion="1.4.0.SNAPSHOT",org.apache.struts.tiles.actions;version="1.4.0.
+ SNAPSHOT",org.apache.struts.tiles.xmlDefinition;version="1.4.0.SNAPSHOT
+ ",org.apache.struts.tiles.taglib;version="1.4.0.SNAPSHOT",org.apache.st
+ ruts.tiles.taglib.util;version="1.4.0.SNAPSHOT",org.apache.struts.resou
+ rces;version="1.4.0.SNAPSHOT"
+Import-Package: javax.servlet,javax.servlet.http,javax.servlet.jsp,javax
+ .servlet.jsp.tagext,org.apache.commons.beanutils,org.apache.commons.cha
+ in,org.apache.commons.digester,org.apache.commons.logging,org.apache.st
+ ruts,org.apache.struts.action,org.apache.struts.chain,org.apache.struts
+ .chain.contexts,org.apache.struts.config,org.apache.struts.resources;ve
+ rsion="1.4.0.SNAPSHOT",org.apache.struts.tiles;version="1.4.0.SNAPSHOT"
+ ,org.apache.struts.tiles.actions;version="1.4.0.SNAPSHOT",org.apache.st
+ ruts.tiles.beans;version="1.4.0.SNAPSHOT",org.apache.struts.tiles.comma
+ nds;version="1.4.0.SNAPSHOT",org.apache.struts.tiles.definition;version
+ ="1.4.0.SNAPSHOT",org.apache.struts.tiles.taglib;version="1.4.0.SNAPSHO
+ T",org.apache.struts.tiles.taglib.util;version="1.4.0.SNAPSHOT",org.apa
+ che.struts.tiles.xmlDefinition;version="1.4.0.SNAPSHOT",org.apache.stru
+ ts.util,org.xml.sax
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-SymbolicName: org.apache.struts.tiles
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://struts.apache.org
+Bundle-Description: Apache Struts
+Bundle-Vendor: Apache Software Foundation
+Bundle-Name: Struts Tiles
+

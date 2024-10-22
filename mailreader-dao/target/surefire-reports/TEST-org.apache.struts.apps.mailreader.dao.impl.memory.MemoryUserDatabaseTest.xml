@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="0" name="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" time="0.219" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Projects\jbf-training\workspaces\main\struts1\mailreader-dao"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="basedir" value="C:\Projects\jbf-training\workspaces\main\struts1\mailreader-dao"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\grmarx\AppData\Local\Temp\surefirebooter11069834159780249547.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\grmarx\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Maven\apache-maven-3.9.7\bin;C:\Program Files\Git\cmd;C:\Users\grmarx\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\grmarx\AppData\Local\Programs\Python\Python311\;C:\Users\grmarx\AppData\Local\Programs\Python\Launcher\;C:\Users\grmarx\scripts;C:\Users\grmarx\Desktop\moje\studia\MOngo\mongosh-1.6.0-win32-x64\bin;C:\Users\grmarx\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mosquitto;C:\Users\grmarx\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\grmarx\.dotnet\tools;C:\Program Files\dotnet;C:\Users\grmarx\AppData\Roaming\npm;C:\Users\grmarx\AppData\Local\Programs\Git\cmd;C:\Program Files\JetBrains\PyCharm 2023.2\bin;;C:\Users\grmarx\Maven\apache-maven-3.9.7\bin;C:\Program Files\GnuWin32\bin\wget-1.5.3;;C:\Users\grmarx\AppData\Local\Programs\Ollama;."/>
+    <property name="surefire.test.class.path" value="C:\Projects\jbf-training\workspaces\main\struts1\mailreader-dao\target\test-classes;C:\Projects\jbf-training\workspaces\main\struts1\mailreader-dao\target\classes;C:\Users\grmarx\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\grmarx\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\grmarx\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\grmarx\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\grmarx"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="grmarx"/>
+    <property name="java.class.path" value="C:\Projects\jbf-training\workspaces\main\struts1\mailreader-dao\target\test-classes;C:\Projects\jbf-training\workspaces\main\struts1\mailreader-dao\target\classes;C:\Users\grmarx\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\grmarx\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\grmarx\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\grmarx\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="C:\Users\grmarx\AppData\Local\Temp\surefirebooter11069834159780249547.jar C:\Users\grmarx\AppData\Local\Temp\surefire12908405542905080365tmp C:\Users\grmarx\AppData\Local\Temp\surefire10177350842715955339tmp"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="pl"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\grmarx\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase01" time="0.051"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase04a" time="0.012"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase03" time="0.01"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase05" time="0.013"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase02" time="0.023"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase04" time="0.013"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase08" time="0.012"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase05a" time="0.011"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase07" time="0.01"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase011" time="0.009"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase010" time="0.01"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase06" time="0.011"/>
+  <testcase classname="org.apache.struts.apps.mailreader.dao.impl.memory.MemoryUserDatabaseTest" name="testCase09" time="0.014"/>
+</testsuite>

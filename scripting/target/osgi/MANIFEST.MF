@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 17.0.7 (Oracle Corporation)
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1729592481909
+Export-Package: org.apache.struts.scripting;version="1.4.0.SNAPSHOT"
+Import-Package: javax.servlet,javax.servlet.http,org.apache.bsf,org.apac
+ he.bsf.util,org.apache.commons.logging,org.apache.struts.action,org.apa
+ che.struts.scripting;version="1.4.0.SNAPSHOT",org.apache.struts.util
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-SymbolicName: org.apache.struts.scripting
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://struts.apache.org
+Bundle-Description: Apache Struts
+Bundle-Vendor: Apache Software Foundation
+Bundle-Name: Struts Scripting
+
